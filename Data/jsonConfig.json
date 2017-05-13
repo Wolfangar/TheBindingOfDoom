@@ -1,0 +1,298 @@
+[
+{
+	"file": "start/roomStart",
+	"type": "START",
+	"width": 512,
+	"height": 512,
+	"origin": { "x": 0, "y": 0 },
+	"things": [],
+	"doors": [{
+		"side": 0,//2 up, 3 left, 0 down, 1 right
+		"anchor": { "x": 192, "y": 512 }
+	},
+	{
+		"side": 3,
+		"anchor": { "x": 0, "y": 192 }
+	},
+	{
+		"side": 2,
+		"anchor": { "x": 192, "y": 0 }
+	},
+	{
+		"side": 1,
+		"anchor": { "x": 512, "y": 192 }
+	}]
+},
+{
+	"file": "start/roomStartTetrisRight",
+	"type": "START",
+	"width": 608,
+	"height": 512,
+	"origin": { "x": 96, "y": 0 },
+	"things": [],
+	"doors": [{
+		"side": 0,//2 up, 3 left, 0 down, 1 right
+		"anchor": { "x": 192, "y": 512 }
+	},
+	{
+		"side": 3,
+		"anchor": { "x": 128, "y": 352 }
+	},
+	{
+		"side": 2,
+		"anchor": { "x": 192, "y": 0 }
+	},
+	{
+		"side": 1,
+		"anchor": { "x": 512, "y": 192 }
+	}]
+},
+{
+	"file": "end/roomEndTetrisRight",
+	"type": "END",
+	"width": 608,
+	"height": 512,
+	"origin": { "x": 96, "y": 0 },
+	"things": [],
+	"doors": [{
+		"side": 0,//2 up, 3 left, 0 down, 1 right
+		"anchor": { "x": 192, "y": 512 }
+	},
+	{
+		"side": 3,
+		"anchor": { "x": 128, "y": 352 }
+	},
+	{
+		"side": 2,
+		"anchor": { "x": 192, "y": 0 }
+	},
+	{
+		"side": 1,
+		"anchor": { "x": 512, "y": 192 }
+	}]
+},
+{
+	"file": "end/roomEnd",
+	"type": "END",
+	"width": 512,
+	"height": 512,
+	"origin": { "x": 0, "y": 0 },
+	"things": [],
+	"doors": [{
+		"side": 0,//2 up, 3 left, 0 down, 1 right
+		"anchor": { "x": 192, "y": 512 }
+	},
+	{
+		"side": 3,
+		"anchor": { "x": 0, "y": 192 }
+	},
+	{
+		"side": 2,
+		"anchor": { "x": 192, "y": 0 }
+	},
+	{
+		"side": 1,
+		"anchor": { "x": 512, "y": 192 }
+	}]
+},
+{
+	"file": "normal/roomNormal1",
+	"type": "NORMAL",
+	"width": 512,
+	"height": 512,
+	"origin": { "x": 0, "y": 0 },
+	"things": [ { "x": 256, "y": 352 },
+		{ "x": 192, "y": 288 },
+		{ "x": 320, "y": 288 },
+		{ "x": 256, "y": 256 },
+		{ "x": 192, "y": 224 },
+		{ "x": 320, "y": 224 },
+		{ "x": 256, "y": 160 },
+		{ "x": 32, "y": 32 },
+		{ "x": 480, "y": 32 },
+		{ "x": 480, "y": 480 },
+		{ "x": 32, "y": 480 },
+		{ "x": 128, "y": 384 },
+		{ "x": 384, "y": 384 },
+		{ "x": 96, "y": 256 },
+		{ "x": 416, "y": 256 },
+		{ "x": 128, "y": 128 },
+		{ "x": 384, "y": 128 }
+	],
+	"doors": [{
+		"side": 0,//2 up, 3 left, 0 down, 1 right
+		"anchor": { "x": 192, "y": 512 }
+	},
+	{
+		"side": 3,
+		"anchor": { "x": 0, "y": 192 }
+	},
+	{
+		"side": 2,
+		"anchor": { "x": 192, "y": 0 }
+	},
+	{
+		"side": 1,
+		"anchor": { "x": 512, "y": 192 }
+	}]
+},
+{
+	"file": "normal/roomNormal2",
+	"type": "NORMAL",
+	"width": 512,
+	"height": 512,
+	"origin": { "x": 0, "y": 0 },
+	"things": [ { "x": 256, "y": 64 },
+		{ "x": 64, "y": 256 },
+		{ "x": 256, "y": 448 },
+		{ "x": 448, "y": 256 },
+		{ "x": 256, "y": 320 },
+		{ "x": 192, "y": 256 },
+		{ "x": 256, "y": 256 },
+		{ "x": 320, "y": 256 },
+		{ "x": 256, "y": 192 }
+	],
+	"doors": [{
+		"side": 0,//2 up, 3 left, 0 down, 1 right
+		"anchor": { "x": 192, "y": 512 }
+	},
+	{
+		"side": 3,
+		"anchor": { "x": 0, "y": 192 }
+	},
+	{
+		"side": 2,
+		"anchor": { "x": 192, "y": 0 }
+	},
+	{
+		"side": 1,
+		"anchor": { "x": 512, "y": 192 }
+	}]
+},
+{
+	"file": "normal/roomRightOnly",
+	"type": "NORMAL",
+	"width": 512,
+	"height": 512,
+	"origin": { "x": 0, "y": 0 },
+	"things": [ { "x": 64, "y": 352 },
+		{ "x": 128, "y": 416 },
+		{ "x": 256, "y": 448 },
+		{ "x": 352, "y": 384 },
+		{ "x": 416, "y": 320 },
+		{ "x": 256, "y": 352 },
+		{ "x": 64, "y": 160 },
+		{ "x": 128, "y": 96 },
+		{ "x": 256, "y": 64 },
+		{ "x": 352, "y": 128 },
+		{ "x": 416, "y": 192 },
+		{ "x": 256, "y": 160 }
+	],
+	"doors": [{
+		"side": 1,
+		"anchor": { "x": 512, "y": 192 }
+	}]
+},
+{
+	"file": "normal/roomLeftRightOnly",
+	"type": "NORMAL",
+	"width": 512,
+	"height": 512,
+	"origin": { "x": 0, "y": 0 },
+	"things": [ { "x": 112, "y": 336 },
+		{ "x": 114, "y": 256 },
+		{ "x": 256, "y": 352 },
+		{ "x": 256, "y": 256 },
+		{ "x": 256, "y": 160 },
+		{ "x": 368, "y": 256 }
+	],
+	"doors": [{
+		"side": 3,
+		"anchor": { "x": 0, "y": 192 }
+	},
+	{
+		"side": 1,
+		"anchor": { "x": 512, "y": 192 }
+	}]
+},
+{
+	"file": "normal/tetrisLeft",
+	"type": "NORMAL",
+	"width": 640,
+	"height": 512,
+	"origin": { "x": 0, "y": 0 },
+	"things": [{ "x": 64, "y": 64 },
+		{ "x": 128, "y": 128 },
+		{ "x": 64, "y": 448 },
+		{ "x": 128, "y": 384 },
+		{ "x": 368, "y": 304 },
+		{ "x": 368, "y": 176 },
+		{ "x": 368, "y": 48 },
+		{ "x": 288, "y": 112 },
+		{ "x": 160, "y": 256 },
+		{ "x": 224, "y": 416 },
+		{ "x": 352, "y": 416 }
+	],
+	"doors": [{
+		"side": 0,//2 up, 3 left, 0 down, 1 right
+		"anchor": { "x": 192, "y": 512 }
+	},
+	{
+		"side": 3,
+		"anchor": { "x": 0, "y": 192 }
+	},
+	{
+		"side": 2,
+		"anchor": { "x": 192, "y": 0 }
+	},
+	{
+		"side": 1,
+		"anchor": { "x": 640, "y": 352 }
+	}
+	]
+},
+{
+	"file": "normal/tetrisRight",
+	"type": "NORMAL",
+	"width": 608,
+	"height": 512,
+	"origin": { "x": 96, "y": 0 },
+	"things": [{ "x": 48, "y": 48 },
+		{ "x": 48, "y": 240 },
+		{ "x": 176, "y": 256 },
+		{ "x": 464, "y": 464 },
+		{ "x": 464, "y": 48 },
+		{ "x": 64, "y": 144 },
+		{ "x": 192, "y": 144 },
+		{ "x": 320, "y": 160 },
+		{ "x": 320, "y": 256 },
+		{ "x": 320, "y": 368 }
+	],
+	"doors": [{
+		"side": 0,//2 up, 3 left, 0 down, 1 right
+		"anchor": { "x": 192, "y": 512 }
+	},
+	{
+		"side": 3,
+		"anchor": { "x": 128, "y": 352 }
+	},
+	{
+		"side": 2,
+		"anchor": { "x": 192, "y": 0 }
+	},
+	{
+		"side": 1,
+		"anchor": { "x": 512, "y": 192 }
+	}
+	]
+},
+{
+	"file": "boss/bossEnd",
+	"type": "BOSS",
+	"width": 1024,
+	"height": 1312,
+	"origin": { "x": 0, "y": 0 },
+	"things": [{ "x": 512, "y": 512 }],
+	"doors": []
+}
+]
